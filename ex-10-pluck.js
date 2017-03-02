@@ -6,7 +6,22 @@
 // e.g:
 // pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
 
+var pluck = function(arrayOfObjects){
+  var ouputArray = []
 
+    for( var i = 0; i<arrayOfObjects.length; i++){
+        var stoogesObjects = arrayOfObjects[i]
+        console.log(stoogesObjects.name)
+
+        // for ( key in stoogesObjects ){
+          // var stoogesObjValue = stoogesObjects[key]
+          // if( key = 'name'){
+            // console.log(stoogesObjects[i])
+          // }
+      // }
+    }
+    return ouputArray
+}
 
 
 
